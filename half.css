@@ -1,0 +1,447 @@
+/* 个人中心 */
+
+.uc-stats{
+    background: #fff;
+    flex-basis: 50%;
+    display: flex;
+}
+
+.uc-stats h3{
+    flex-basis: 40%;
+    padding: 38px 10px 30px 20px;
+    color: #444;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.uc-stats p{
+    flex-basis: 60%;
+    text-align: left;
+    margin: 0px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 28px 20px;
+}
+
+.uc-stats em{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #999;
+}
+
+.uc-avatar{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.uc-record{
+    display: flex;
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.uc-record h3{
+    flex-basis: 20%;
+    margin: 0px;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-right: 20px;
+    color: #444;
+}
+
+.uc-record p{
+    flex-basis: 80%;
+    margin: 0px;
+    padding: 0px 10px 0 20px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-left: 1px solid #999;
+}
+
+.uc-record b{
+    font-weight: 500;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: #777;
+}
+
+.uc-record em{
+    color: #999;
+    font-style: normal;
+}
+
+.uc-mem{
+    background: #fff;
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset -2px 0 0 0 rgba(255,255,255,0.1), inset 2px 0 0 0 rgba(255,255,255,0.1), inset 0 2px 0 0 rgba(255,255,255,0.1);
+    padding: 50px 0;
+}
+
+.uc-mem-center{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.uc-mem-price-low{
+    font-size: 16px;
+    color: #666;
+    font-weight: 300;
+}
+
+.uc-mem-price-wrapper{
+    margin-top: 22px;
+}
+
+.uc-mem-price-symbol{
+    margin-left: 13px;color: #444;
+}
+
+.uc-mem-price-number{
+    font-size: 36px;
+    color: #444;
+    letter-spacing: 1.5px;
+    margin-left: 1px;
+    font-weight: 300;
+}
+
+.uc-mem-price-unit{
+    font-size: 16px;
+    color: #666;
+    letter-spacing: 0.67px;
+    margin-left: 3px;
+    position: relative;
+    top: -3px;
+    left: 1px;
+}
+
+
+.uc-mem-price-note{
+    opacity: 0.8;
+    font-size: .95rem;
+    color: #c6c7c9;
+    letter-spacing: 1px;
+}
+
+.uc-mem-buttons{
+    margin-top: 28px;
+}
+
+.uc-mem-button{
+    width: 220px;
+    box-sizing: border-box;
+    background-image: linear-gradient(211deg, #41464B 0%, #2C3033 66%);
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 10px 40px;
+    border-radius: 4px;
+}
+
+.uc-mem-expire-days{
+    margin: 0px;
+    display: inline-block;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    padding: 2px 10px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.uc-mem-expire{
+    color: #eee;
+    margin-bottom: 5px;
+}
+
+.uc-mem-type{
+    color: #fff;
+    margin: 0px;
+    font-weight: 600;
+    font-family: auto;
+    font-size: 2.1rem;
+}
+
+.uc-mem-already{
+    background-image: linear-gradient(211deg, rgba(65, 70, 75, 0.6196078431372549) 0%, rgb(44, 48, 51) 66%);
+    margin: 20px 30px;
+    color: #fff;
+    padding: 40px 35px;
+    border-radius: 8px;
+}
+
+.uc-mem-crown{
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    top: 165px;
+    opacity: 0.2;
+}
+
+.uc-mem-money{
+    bottom: 80px;
+    top: unset;
+    position: absolute;
+    width: 105px;
+    right: 45px;
+    opacity: 0.2;
+}
+
+.uc-avatar-img{
+    height: 75px;width: 75px;margin: 0px auto 10px auto;border-radius: 50%;border: 1px solid #eee;
+}
+/* 结束个人中心 */
+
+/* Intro */
+.intro{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10010;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.intro-bg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10010;
+    background-color: rgba(0,0,0,.65);
+}
+
+.intro-area{
+     position: relative;
+    z-index: 10011;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.intro-content{
+    width: 588px;
+    max-height: calc(100vh - 24px * 2);
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.intro-content-container{
+    padding: 70px 24px 60px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: HelveticaNeue-Light,Helvetica,PingFangSC-Light,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+    color: #404040;
+    box-sizing: border-box;
+}
+
+.intro-content-header{
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.intro-content-header img{
+    width: 100%;
+    height: auto;
+    margin: 15px 0 15px 0;
+}
+
+.intro-content-header #loginform{
+        padding: 15px 70px 10px 70px;
+}
+
+.intro-content-header #loginform p{
+    font-size: 17px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.intro-content-header #loginform label{
+    margin-bottom: 15px;
+}
+
+.intro-content-header #loginform input{
+    border-radius: 30px;
+    border-color: #c2c0c0;
+}
+
+.intro-content-header .login-remember{
+    display: none;
+}
+
+.intro-content-header .login-submit{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.intro-content-header .login-submit input{
+    background: #333;
+    color: #ffffff;
+    padding: 8px 40px 8px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.intro-content-header .login-submit a{
+    background: #eee;
+    color: #333;
+    padding: 11px 45px 10px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.intro-content-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+.intro-content-button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.intro-button{
+    display: inline-block;
+    min-width: 140px;
+    padding: 5px 1em;
+    background-color: #333;
+    border-radius: 30px;
+    font: inherit;
+    color: #fff;
+    transition: background-color .15s ease-out,opacity .15s ease-out;
+    cursor: pointer;
+    outline: none;
+}
+
+.animations-fadeIn-bg {
+    animation:animations-fadeIn-bg .3s ease-out both
+}
+@keyframes animations-fadeIn-bg {
+    0% {
+        opacity:0
+    }
+    to {
+        opacity:1
+    }
+}
+.animations-fadeOut-bg {
+    animation:animations-fadeOut-bg .3s ease-out both
+}
+@keyframes animations-fadeOut-bg {
+    0% {
+        opacity:1
+    }
+    to {
+        opacity:0
+    }
+}
+
+.animations-fadeOut-post {
+    animation:animations-fadeOut-post .5s ease-out both
+}
+@keyframes animations-fadeOut-post {
+    0% {
+        opacity:1
+    }
+    to {
+        opacity:0
+    }
+}
+
+.animations-fadeInUp-area {
+    animation:animations-fadeInUp-area .3s cubic-bezier(.25, .1, .35, 1) both
+}
+@keyframes animations-fadeInUp-area {
+    0% {
+        opacity:0;
+        transform:translateY(15px)
+    }
+    to {
+        opacity:1;
+        transform:translateY(0)
+    }
+}
+
+.animations-fadeOutDown-area {
+    animation:animations-fadeOutDown-area .3s cubic-bezier(.25, .1, .35, 1) both
+}
+@keyframes animations-fadeOutDown-area {
+    0% {
+        opacity:1;
+        transform:translateY(0px)
+    }
+    to {
+        opacity:0;
+        transform:translateY(15px)
+    }
+}
+
+.animations-fadeInUp-focus {
+    animation:animations-fadeInUp-focus .4s cubic-bezier(.25, .1, .35, 1) both
+}
+@keyframes animations-fadeInUp-focus {
+    0% {
+        opacity: 0.5;
+        transform:translateY(15px)
+    }
+    to {
+        opacity: 1;
+        transform:translateY(0)
+    }
+}
+.animations-fadeInUp-post {
+    animation:animations-fadeInUp-post .8s cubic-bezier(.25, .1, .35, 1) both
+}
+@keyframes animations-fadeInUp-post {
+    0% {
+        transform:translateY(1000px)
+    }
+    to {
+        transform:translateY(0)
+    }
+}
+
+
+.animations-fadeOutDown {
+    animation:animations-fadeOutDown .8s cubic-bezier(.25, .1, .35, 1) both
+}
+@keyframes animations-fadeOutDown {
+    0% {
+        transform:translateY(0);
+    }
+    to {
+        transform:translateY(1000px);
+    }
+}
+.animations-fadeOutLeft {
+    animation:animations-fadeOutLeft .3s cubic-bezier(.25, .1, .35, 1) both
+}
+@keyframes animations-fadeOutLeft {
+    0% {
+        transform:translateX(10px)
+    }
+    to {
+        transform:translateX(0)
+    }
+}
+/* 结束intro */
